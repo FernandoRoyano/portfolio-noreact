@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernando Royano</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav id="home">
+      <ul>
+        <li><a href="#home" name="home">HOME</a></li>
+        <li><a href="#about" name="about">ABOUT</a></li>
+        <li><a href="#proyects" name="proyects">PROYECTS</a></li>
+        <li><a href="#contact" name="contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <p id="name">
+        Hi,I´m <span>Fernando Royano</span>
+        <br />
+        <br />
+        Front en Developer
+      </p>
+    </header>
+
+    <article>
+      <h2 id="about">About</h2>
+      <img src="./img/user.png" class="user" />
+      <p class="about">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet
+        metus sed nulla maximus, id rutrum velit semper. Sed finibus auctor
+        porttitor. Maecenas pellentesque condimentum eros pharetra ullamcorper.
+        Maecenas varius, dui non hendrerit iaculis, dolor lorem tincidunt justo,
+        nec finibus risus est ac leo. Maecenas ultrices volutpat lorem non
+        convallis. Donec congue vestibulum felis, a sagittis neque rutrum id.
+        Quisque ultrices neque vitae sem egestas scelerisque. Curabitur molestie
+        ac massa non laoreet. In porttitor tincidunt sapien ac rhoncus. Aenean a
+        quam lacus. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. Duis tempor tellus eget sagittis
+        blandit. Integer mattis turpis at sodales consequat. Aenean vulputate
+        lorem at risus lobortis elementum. Curabitur consequat congue mi, et
+        lobortis leo commodo id.
+      </p>
+      <p></p>
+      <h2 id="proyects">Proyects</h2>
+      <button class="accordion">CAFÉ DE ALTURA</button>
+      <div class="panel">
+        <p>
+          Maecenas varius, dui non hendrerit iaculis, dolor lorem tincidunt
+          justo, nec finibus risus est ac leo. Maecenas ultrices volutpat lorem
+          non convallis. Donec congue vestibulum felis, a sagittis neque rutrum
+          id. Quisque ultrices neque vitae sem egestas scelerisque. Curabitur
+          molestie ac massa non laoreet. In porttitor tincidunt sapien ac
+          rhoncus. Aenean a quam lacus. Pellentesque habitant morbi tristique
+          senectus et netus et malesuada fames ac turpis egestas. Duis tempor
+          tellus eget sagittis blandit. Integer mattis turpis at sodales
+          consequat. Aenean vulputate lorem at risus lobortis elementum.
+          Curabitur consequat congue mi, et lobortis leo commodo id.
+        </p>
+      </div>
+
+      <button class="accordion">ARKANOID</button>
+      <div class="panel">
+        <p>
+          Maecenas varius, dui non hendrerit iaculis, dolor lorem tincidunt
+          justo, nec finibus risus est ac leo. Maecenas ultrices volutpat lorem
+          non convallis. Donec congue vestibulum felis, a sagittis neque rutrum
+          id. Quisque ultrices neque vitae sem egestas scelerisque. Curabitur
+          molestie ac massa non laoreet. In porttitor tincidunt sapien ac
+          rhoncus. Aenean a quam lacus. Pellentesque habitant morbi tristique
+          senectus et netus et malesuada fames ac turpis egestas. Duis tempor
+          tellus eget sagittis blandit. Integer mattis turpis at sodales
+          consequat. Aenean vulputate lorem at risus lobortis elementum.
+          Curabitur consequat congue mi, et lobortis leo commodo id.
+        </p>
+      </div>
+
+      <button class="accordion">WELLNESS REAL</button>
+      <div class="panel">
+        <p>
+          Maecenas varius, dui non hendrerit iaculis, dolor lorem tincidunt
+          justo, nec finibus risus est ac leo. Maecenas ultrices volutpat lorem
+          non convallis. Donec congue vestibulum felis, a sagittis neque rutrum
+          id. Quisque ultrices neque vitae sem egestas scelerisque. Curabitur
+          molestie ac massa non laoreet. In porttitor tincidunt sapien ac
+          rhoncus. Aenean a quam lacus. Pellentesque habitant morbi tristique
+          senectus et netus et malesuada fames ac turpis egestas. Duis tempor
+          tellus eget sagittis blandit. Integer mattis turpis at sodales
+          consequat. Aenean vulputate lorem at risus lobortis elementum.
+          Curabitur consequat congue mi, et lobortis leo commodo id.
+        </p>
+      </div>
+
+      <h2 id="contact">Contact</h2>
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">NAME</label>
+          <input type="text" id="fname" name="firstname" placeholder="Name" />
+
+          <label for="email">EMAIL </label>
+          <input type="text" id="email" name="lastname" placeholder="Email" />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Messege..."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+
+      <p>
+        *Your email information will not be stored in any database or sold to
+        any third parties. It will be used only to answer you back.
+      </p>
+    </article>
+
+    <footer>
+      Designed & Built by Fernando Royano Cabrero © 2023
+      <br />
+      This site uses React & SASS || Check the repository here
+    </footer>
+  </body>
+
+  <script src="./app.js"></script>
+</html>
